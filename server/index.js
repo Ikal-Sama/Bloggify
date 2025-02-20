@@ -16,6 +16,7 @@ const port = process.env.PORT
 
 const corsOption = {
     origin: process.env.FRONTEND_URL,
+    method: ["GET", "PUT", "POST", "DELETE"],
     credentials: true,
 }
 
